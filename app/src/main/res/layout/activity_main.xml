@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Titulo"
+        android:textSize="40dp"/>
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:text="boton1" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:text="boton2"/>
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:text="boton3"/>
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:text="boton4"/>
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:text="boton5"/>
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:text="boton6"/>
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:text="boton7"/>
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/vivi"/>
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Otra cosa"
+        android:textSize="40dp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/vivi"/>
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/vivi"/>
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:text="boton"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/vivi"/>
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:text="boton"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/vivi"/>
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:text="boton"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/vivi"/>
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:text="boton"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/vivi"/>
+        </LinearLayout>
+    </HorizontalScrollView>
+
+
+
+</LinearLayout>
